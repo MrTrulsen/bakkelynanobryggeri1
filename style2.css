@@ -149,14 +149,14 @@ h2 {
     background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(img/beer5.jpg);
     background-size: cover;
     background-position: center;
-    height: 105vh;
+    height: 100vh;
 }
 
 .produkt-bakgrunn {
      background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.79)), url(img/beer6.jpg);
     background-size: cover;
     background-position: center;
-    height: 105vh;
+    height: 100vh;
     
 }
 
