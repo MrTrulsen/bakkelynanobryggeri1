@@ -1,0 +1,363 @@
+/* ---------------------------------------- */
+/* BASIC SETUP  */
+/*------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+   padding-right: 40%; 
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family:'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    }
+/* ---------------------------------------- */
+/* RESUBLE                                  */
+/*------------------------------------------*/
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+} 
+
+/* ---------------------------------------- */
+/* HEADER                                */
+/*------------------------------------------*/
+
+h1{
+   font-size: 230%; 
+   color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.bakgrunntext-box {
+    margin: 0;
+    padding-left: 20%;
+    
+}
+
+h2 {
+    color: #fff;
+    padding-top:20%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    width:60%;
+    font-size: 240%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+  }
+
+
+
+/* ---------------------------------------- */
+/* BUTTONS                          */
+/*------------------------------------------*/
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    margin-left: 2%;
+    text-decoration: none;
+    background-color: #d35400;
+    border-radius: 200px;
+    color: #fff;
+    
+    
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #5c2500;
+    
+}
+
+.btn-prod:link,
+.btn-prod:visited {
+     display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    background-color: #d35400;
+    border-radius: 200px;
+    color: #fff;
+    margin-left: 33%
+    
+}
+
+.btn-prod:hover,
+.btn-prod:active {
+    background-color: #5c2500;
+}
+/* ---------------------------------------- */
+/*                                          */
+/*------------------------------------------*/
+.bakkelylogo {
+  height: 200px;
+   width: auto;
+   float: left;
+    
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 7%;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 105%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #d35400;
+}
+/* ---------------------------------------- */
+/*       HEADER-produkter                   */
+/*------------------------------------------*/
+
+.bakgrunn {
+    background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(img/beer5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.produkt-bakgrunn {
+     background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.79)), url(img/beer6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+
+
+h3 {
+     color: #fff;
+    padding-top:15%;
+    padding-bottom: 2%;
+    width: 100%;
+    text-align: center;
+    font-size: 260%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #d35400;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.plan-box {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.plan-box div {
+
+    border-bottom: 1px solid #d35400;
+}
+
+.pris {
+    font-size: 200%;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+h4 {
+    color: #fff;
+    font-size: 240%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.box-om-oss {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.46);
+    
+    }
+
+h5 {
+    color: black;
+    font-size: 130%;
+    width:30%;
+    float:left;
+    
+}
+
+.skeide1 {
+  max-width:50%;
+  max-height:90%;
+   border-radius: 10%;
+   float:left;
+    margin-top: 1%;
+    margin-left: 15%
+    }
+
+.skeide2 {
+    max-width: 100%;
+    max-height: 90%;
+    border-radius: 10%;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+.bilder {
+    width: 100%;
+    height:50%;
+}
+
+
+.info-om-bakkely {
+    font-size: 5%;
+    width: 20%;
+    float: right;
+    
+}
+
+.textbox2 {
+    width: 100%;
+    height: 30%;
+    float: left;
+    margin-top: 3%;
+    padding-left: 1%;
+}
+
+.meny {
+    width: 100%;
+    height:250px;
+}
+
+.textfelt {
+    font-size: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.copyright1 {
+    margin-top: 30%;
+    text-align: center;
+    color: #fff;
+    font-size:80%;
+    margin-bottom: %;
+}
+.copyright2 {
+    margin-top: 25%;
+    text-align: center;
+    color: #fff;
+    font-size:80%
+}
+.copyright3 {
+    margin-top: 31%;
+    text-align: center;
+    color: #fff;
+    font-size:80%
+}
+
+.copyright4 {
+     margin-top: 19%;
+    text-align: center;
+    color: #fff;
+    font-size:80%
+}
+
+.section-form {
+    text-align: center;
+    height: 50%
+}
+
+label {
+    color: #fff;
+}
+
+.btn-logg:link,
+.btn-logg:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #d35400;
+    border-radius: 200px;
+    color: #fff;
+    margin-top: 2%
+    
+    
+}
+
+.btn-logg:hover,
+.btn-logg:active {
+    background-color: #5c2500;
+    
+}
+
+.boxx {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    text-align: center;
+}
+
+.copyright5 {
+    margin-top: 34%;
+    text-align: center;
+    color: #fff;
+    font-size:80%
+}
+
+.foot {
+    width: 100%;
+    height:0%;
+    margin-bottom: 1%;
+}
+
+.bakkelylogo1 {
+    color: black;
+}
+
+.main-section {
+    width: 100%;
+    height: 100%;
+}
